@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css"
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+			<img src="assets/Logo/partner.png" alt="Logo" class="Logo-img" />
+			<h1 class="Logo-title">Ardhani X</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li>
+					<li><a href="mailto:faislardhn@icloud.com">KONTAK</a></li>
+					
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirIstagram()">Follow saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Faisal Ardhani Here!</p>
+				<p class="deacription">Teknology Influenser Form Village</P>
+				<img src="assets/foto/FaisalAr1.jpg" alt="Faisal Ardhani Foto 1"class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">saya adalah programer baru</p>
+				<p class="deacription">ngoding ajah dulu, jago mah belakangan.</P>
+				<div class="nt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="jasa">
+						<div class="card-item">
+						<img src="assets/Logo/24-hours.png" alt="icon 1" class="icon"/>
+							<p class="card-title">Pelayanan nonstop</p>
+							<p class="card-deacription">servis 24 jam nonstop jika anda membutuhkan bantuan ini</P>
+						</div>
+						<div class="card-item">
+						<img src="assets/Logo/hot-deal.png" alt="icon 2" class="icon"/>
+							<p class="card-title">Jasa murah</p>
+							<p class="card-deacription">Biaya jasa yang pasti murah dan terjamin bre</P>
+						</div>
+						<div class="card-item">
+						<img src="assets/Logo/rating.png" alt="icon 3" class="icon"/>
+							<p class="card-title">750 Review</p>
+							<p class="card-deacription">Mereka merasa senang dalam bekerjasama dengan saya</P>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Faisal Ardhani Website 2022</p>
+		</footer>
+		<script>
+			function redirIstagram() {
+				window.location.href = "https://www.instagram.com/_ardhni/"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+628817588281"
+			}
+		</script>
+	</body>
+</html>
